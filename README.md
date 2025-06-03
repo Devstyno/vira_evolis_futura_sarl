@@ -1,40 +1,48 @@
-# Responsive Website
+# VIRA EVOLIS FUTURA - SARL | Site Vitrine
 
-This project is a responsive website designed to provide an optimal viewing experience across a wide range of devices. It includes a main HTML document, CSS for styling, and JavaScript for interactivity.
+Ce projet est le site vitrine responsive de VIRA EVOLIS FUTURA - SARL, cabinet d’accompagnement, de conseil et de financement pour entreprises et start-ups.
 
-## Project Structure
+## Structure du projet
 
-- `src/index.html`: The main HTML document for the website.
-- `src/css/styles.css`: Contains styles, layout, colors, fonts, and responsive design rules.
-- `src/js/main.js`: JavaScript code for interactivity and DOM manipulation.
-- `src/assets/favicon.ico`: The favicon for the website.
-- `package.json`: Configuration file for npm, listing dependencies and scripts.
+- `public/index.html` : Page principale du site.
+- `public/css/styles.css` : Feuille de styles personnalisée.
+- `public/js/main.js` : Scripts pour l’interactivité et le chargement dynamique des contenus.
+- `public/data/` : Données JSON pour les services, actualités, équipe, témoignages, etc.
+- `public/assets/` : Images, icônes, favicon, etc.
 
-## Features
+## Fonctionnalités
 
-- Responsive design that adapts to different screen sizes.
-- Interactive elements powered by JavaScript.
-- Clean and modern layout with a focus on usability.
+- **Design responsive** (Bootstrap 5) : affichage optimal sur mobile, tablette et desktop.
+- **Sections dynamiques** : services, actualités, équipe, témoignages, coordonnées.
+- **Modals interactifs** : détails des services et actualités affichés dans des fenêtres modales.
+- **Formulaire de contact** : envoi simulé avec message de confirmation.
+- **Carte Google Maps** : localisation de Lomé intégrée.
 
-## Setup Instructions
+## Installation & utilisation
 
-1. Clone the repository:
-   ```
+1. Clonez ce dépôt :
+   ```bash
    git clone <repository-url>
    ```
-
-2. Navigate to the project directory:
+2. Ouvrez le dossier du projet :
+   ```bash
+   cd vitrine
    ```
-   cd responsive-website
-   ```
+3. Ouvrez `public/index.html` dans votre navigateur.
 
-3. Install dependencies:
-   ```
-   npm install
-   ```
+Aucune dépendance à installer, tout fonctionne en local (HTML/CSS/JS + Bootstrap CDN).
 
-4. Open `src/index.html` in your browser to view the website.
+## Personnalisation
 
-## Contributing
+- Modifiez les fichiers dans `public/data/` pour changer les contenus (services, équipe, témoignages…).
+- Ajoutez vos images dans `public/assets/`.
+- Adaptez le style dans `public/css/styles.css` selon votre charte graphique.
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.
+## Contribution
+
+Toute contribution est la bienvenue !  
+Merci d’ouvrir une issue ou une pull request pour toute suggestion ou amélioration.
+
+---
+
+© 2024 VIRA EVOLIS FUTURA - SARL
