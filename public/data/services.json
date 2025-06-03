@@ -1,34 +1,42 @@
 [
   {
     "title": "Accompagnement des entreprises",
-    "description": "Nous accompagnons les entreprises dans leur développement et leur structuration."
+    "description": "Nous accompagnons les entreprises dans leur développement et leur structuration.",
+    "details": "<p>Notre équipe d'experts offre un accompagnement personnalisé pour aider les entreprises à structurer leurs projets et à atteindre leurs objectifs de croissance. Nous analysons les besoins spécifiques de chaque entreprise pour proposer des solutions adaptées.</p>"
   },
   {
     "title": "Étude et évaluation de projets",
-    "description": "Analyse approfondie et évaluation de la viabilité des projets."
+    "description": "Analyse approfondie et évaluation de la viabilité des projets.",
+    "details": "<p>Nous réalisons des études détaillées pour évaluer la faisabilité et la rentabilité des projets. Notre approche rigoureuse permet d'identifier les opportunités et les risques associés, garantissant ainsi une base solide pour le développement futur.</p>"
   },
   {
     "title": "Conseil et appui technique",
-    "description": "Fourniture de conseils stratégiques et techniques adaptés aux besoins des entreprises."
+    "description": "Fourniture de conseils stratégiques et techniques adaptés aux besoins des entreprises.",
+    "details": "<p>Nos consultants apportent leur expertise pour conseiller les entreprises sur les meilleures pratiques et stratégies à adopter. Nous offrons un appui technique pour optimiser les processus et améliorer l'efficacité opérationnelle.</p>"
   },
   {
     "title": "Établissement de plans d'affaires",
-    "description": "Création de plans d'affaires solides pour assurer le succès des projets."
+    "description": "Création de plans d'affaires solides pour assurer le succès des projets.",
+    "details": "<p>Nous aidons à la rédaction de plans d'affaires complets qui intègrent les aspects financiers, marketing et opérationnels. Un plan bien structuré est essentiel pour attirer les investisseurs et guider le développement de l'entreprise.</p>"
   },
   {
     "title": "Mise en relation avec les institutions financières",
-    "description": "Facilitation des contacts avec les institutions financières pour le financement des projets."
+    "description": "Facilitation des contacts avec les institutions financières pour le financement des projets.",
+    "details": "<p>Nous avons un réseau étendu d'institutions financières et nous facilitons les mises en relation pour aider les entreprises à obtenir le financement nécessaire à leurs projets. Notre connaissance du secteur financier est un atout précieux.</p>"
   },
   {
     "title": "Négociation de contrats",
-    "description": "Assistance dans la négociation de contrats avec les partenaires financiers."
+    "description": "Assistance dans la négociation de contrats avec les partenaires financiers.",
+    "details": "<p>Notre équipe accompagne les entreprises dans la négociation de contrats, en veillant à ce que les termes soient favorables et alignés sur les objectifs stratégiques. Une bonne négociation est cruciale pour sécuriser des partenariats durables.</p>"
   },
   {
     "title": "Suivi de projets",
-    "description": "Accompagnement continu jusqu'à la réalisation complète des projets."
+    "description": "Accompagnement continu jusqu'à la réalisation complète des projets.",
+    "details": "<p>Nous assurons un suivi régulier des projets pour garantir leur bonne exécution. Notre équipe reste disponible pour ajuster les stratégies en fonction de l'évolution des besoins et des conditions du marché.</p>"
   },
   {
     "title": "Recouvrement des fonds",
-    "description": "Gestion du recouvrement des fonds alloués aux entreprises."
+    "description": "Gestion du recouvrement des fonds alloués aux entreprises.",
+    "details": "<p>Nous gérons le processus de recouvrement des fonds pour assurer que les ressources financières sont utilisées efficacement et conformément aux objectifs fixés. Notre approche proactive minimise les risques de non-recouvrement.</p>"
   }
 ]

@@ -1,17 +1,16 @@
 [
   {
-    "title": "Nouveau partenariat signé",
-    "date": "2024-05-01",
-    "content": "Nous avons signé un partenariat avec..."
+    "title": "Lancement du programme d’accompagnement 2025",
+    "date": "03/06/2025",
+    "content": "Découvrez notre nouveau programme dédié aux jeunes entrepreneurs et porteurs de projets innovants.",
+    "details": "<p>Notre programme 2025 propose : <ul><li>Un accompagnement personnalisé</li><li>Des ateliers pratiques</li><li>Un accès à notre réseau d’investisseurs</li></ul>Inscrivez-vous dès maintenant !</p>",
+    "image": "assets/img/news/group-people-communicating-desktop.jpg"
   },
   {
-    "title": "Lancement de notre nouveau service",
-    "date": "2024-04-15",
-    "content": "Nous sommes heureux d'annoncer le lancement de..."
-  },
-  {
-    "title": "Événement à venir",
-    "date": "2024-03-20",
-    "content": "Rejoignez-nous pour notre prochain événement..."
+    "title": "Retour sur notre dernier atelier",
+    "date": "20/05/2025",
+    "content": "Retour en images sur notre atelier « Financer sa croissance » organisé à Abidjan en mai 2025.",
+    "details": "<p>L’atelier a réuni plus de 50 entrepreneurs autour de thématiques clés du financement. Merci à tous les participants !</p>",
+    "image" : "assets/img/news/people-working-together-animation-studio.jpg"
   }
 ]
