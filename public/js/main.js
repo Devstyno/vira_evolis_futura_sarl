@@ -21,19 +21,49 @@ $(function() {
 
   // Chargement de la section À propos
   $.getJSON('data/about.json', function(data) {
-    let html = `<h4>Mission</h4><p>${data.mission}</p><h4>Vision</h4><p>${data.vision}</p><h4>Équipe</h4><ul>`;
+    // Mission et vision
+    $('#about-mission').text(data.mission);
+    $('#about-vision').text(data.vision);
+
+    // Image principale
+    $('.about-main-img').attr('src', data.image);
+
+    // Équipe
+    let teamHtml = '';
     data.team.forEach(member => {
-      html += `<li><strong>${member.name}</strong> (${member.role}) : ${member.bio}</li>`;
+      teamHtml += `
+        <div class="col-6 col-md-3 mb-4">
+          <div class="card border-0 shadow-sm h-100 text-center">
+            <img src="${member.photo}" alt="${member.name}" class="card-img-top rounded-circle mx-auto mt-3" style="width:100px; height:100px; object-fit:cover;">
+            <div class="card-body">
+              <h5 class="card-title mb-1">${member.name}</h5>
+              <div class="text-gold small mb-1">${member.role}</div>
+              <p class="card-text small">${member.bio}</p>
+            </div>
+          </div>
+        </div>
+      `;
     });
-    html += '</ul>';
-    $('#about-content').html(html);
+    $('#about-team').html(teamHtml);
   });
 
   // Chargement des témoignages
   $.getJSON('data/testimonials.json', function(data) {
     let html = '';
     data.forEach(t => {
-      html += `<div class="col-md-6 mb-4"><div class="card h-100"><div class="card-body"><blockquote class="blockquote mb-0"><p>${t.content}</p><footer class="blockquote-footer">${t.author}</footer></blockquote></div></div></div>`;
+      html += `
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 shadow-sm border-0 testimonial-card">
+            <div class="card-body d-flex flex-column align-items-center text-center">
+              <img src="${t.image}" alt="${t.author}" class="rounded-circle mb-3 testimonial-img" width="80" height="80" style="object-fit:cover;">
+              <blockquote class="blockquote mb-2">
+                <p class="mb-0">${t.content}</p>
+              </blockquote>
+              <footer class="blockquote-footer mt-2 text-gold">${t.author}</footer>
+            </div>
+          </div>
+        </div>
+      `;
     });
     $('#testimonials-list').html(html);
   });

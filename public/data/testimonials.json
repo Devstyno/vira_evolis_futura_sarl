@@ -1,22 +1,27 @@
 [
   {
     "author": "Mme Diallo, CEO StartUpX",
-    "content": "« Grâce à VIRA EVOLIS FUTURA, nous avons obtenu un financement clé pour notre développement. Leur accompagnement a été déterminant ! »"
+    "content": "« Grâce à VIRA EVOLIS FUTURA, nous avons obtenu un financement clé pour notre développement. Leur accompagnement a été déterminant ! »",
+    "image": "assets/img/testimonials/2.jpg"
   },
   {
     "author": "M. Traoré, Directeur Général Entreprise Y",
-    "content": "« Une équipe à l’écoute, professionnelle et réactive. Nous recommandons vivement leurs services. »"
+    "content": "« Une équipe à l’écoute, professionnelle et réactive. Nous recommandons vivement leurs services. »",
+    "image": "assets/img/testimonials/1.jpg"
   },
   {
     "author": "Mme Konaté, Fondatrice Association Z",
-    "content": "« VIRA EVOLIS FUTURA a su comprendre nos besoins spécifiques et nous a aidés à structurer notre projet. Un grand merci ! »"
+    "content": "« VIRA EVOLIS FUTURA a su comprendre nos besoins spécifiques et nous a aidés à structurer notre projet. Un grand merci ! »",
+    "image": "assets/img/testimonials/2.jpg"
   },
   {
     "author": "M. Coulibaly, Entrepreneur Indépendant",
-    "content": "« Leur expertise en gestion de projet est inégalée. J’ai pu lancer mon activité avec confiance grâce à leur soutien. »"
+    "content": "« Leur expertise en gestion de projet est inégalée. J’ai pu lancer mon activité avec confiance grâce à leur soutien. »",
+    "image": "assets/img/testimonials/1.jpg"
   },
   {
     "author": "Mme Sissoko, Responsable Marketing Entreprise A",
-    "content": "« Un accompagnement sur mesure qui a fait la différence pour notre stratégie de développement. »"
+    "content": "« Un accompagnement sur mesure qui a fait la différence pour notre stratégie de développement. »",
+    "image": "assets/img/testimonials/2.jpg"
   }
 ]

@@ -1,11 +1,31 @@
 {
   "mission": "Accompagner les entreprises dans leur croissance et leur réussite.",
   "vision": "Être le partenaire de référence pour le développement des entreprises.",
+  "image": "assets/img/about/happy-joyful-diverse-business-partners-greeting-each-other.jpg",
   "team": [
     {
       "name": "John DOE",
       "role": "Fondateur",
-      "bio": "Expert en accompagnement d'entreprise."
+      "bio": "Expert en accompagnement d'entreprise.",
+      "photo": "assets/img/about/team/1.jpg"
+    },
+    {
+      "name": "Jane SMITH",
+      "role": "Directrice Marketing",
+      "bio": "Spécialiste en stratégie de croissance.",
+      "photo": "assets/img/about/team/2.jpg"
+    },
+    {
+      "name": "Alice JOHNSON",
+      "role": "Responsable des Opérations",
+      "bio": "Gestionnaire d'équipe avec 10 ans d'expérience.",
+      "photo": "assets/img/about/team/2.jpg"
+    },
+    {
+      "name": "Bob BROWN",
+      "role": "Développeur Senior",
+      "bio": "Passionné par les technologies innovantes.",
+      "photo": "assets/img/about/team/1.jpg"
     }
   ]
 }

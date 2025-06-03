@@ -90,6 +90,29 @@ footer a:hover {
   margin-bottom: 1rem;
 }
 
+#about-team .card {
+  transition: transform 0.2s;
+}
+#about-team .card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+#about-team .card-img-top {
+  border: 3px solid #eab543;
+}
+
+.testimonial-card {
+  border-left: 4px solid #eab543;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.testimonial-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  transform: translateY(-6px) scale(1.02);
+}
+.testimonial-img {
+  border: 3px solid #eab543;
+}
+
 @media (max-width: 767px) {
   .hero-header {
     padding: 3rem 1rem;
