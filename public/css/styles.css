@@ -113,6 +113,28 @@ footer a:hover {
   border: 3px solid #eab543;
 }
 
+#contact .card {
+  border-radius: 1rem;
+  background: #fff;
+}
+#contact .card-body {
+  padding: 2rem 1.5rem;
+}
+#contact .list-unstyled i {
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+#contact .ratio {
+  border-radius: .75rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+@media (min-width: 768px) {
+  #contact .row.g-4 {
+    gap: 2rem !important;
+  }
+}
+
 @media (max-width: 767px) {
   .hero-header {
     padding: 3rem 1rem;

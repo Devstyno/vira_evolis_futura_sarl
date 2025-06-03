@@ -92,34 +92,49 @@
   <section id="contact" class="py-5 bg-light">
     <div class="container">
       <h2 class="section-title mb-4">Contact</h2>
-      <div class="row">
+      <!-- <div class="row g-4 align-items-stretch"> -->
+      <div class="row align-items-stretch">
+        <!-- Formulaire -->
         <div class="col-md-6">
-          <form id="contact-form">
-            <div class="mb-3">
-              <label for="name" class="form-label">Nom</label>
-              <input type="text" class="form-control" id="name" required>
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h5 class="mb-3 text-gold"><i class="bi bi-envelope-paper"></i> Envoyez-nous un message</h5>
+              <form id="contact-form">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="9" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold w-100">Envoyer</button>
+              </form>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-gold">Envoyer</button>
-          </form>
+          </div>
         </div>
+        <!-- Coordonnées -->
         <div class="col-md-6">
-          <h5>Coordonnées</h5>
-          <p>
-            VIRA EVOLIS FUTURA - SARL<br>
-            Adresse : Abidjan, Plateau, Immeuble XYZ<br>
-            Email : contact@vira-evolis-futura.com<br>
-            Téléphone : +225 01 23 45 67 89
-          </p>
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h5 class="mb-3 text-gold"><i class="bi bi-geo-alt"></i> Coordonnées</h5>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2"><i class="bi bi-building me-2 text-gold"></i>VIRA EVOLIS FUTURA - SARL</li>
+                <li class="mb-2"><i class="bi bi-geo me-2 text-gold"></i>Adresse : Lomé, Togo</li>
+                <li class="mb-2"><i class="bi bi-envelope me-2 text-gold"></i>Email : <a href="mailto:contact@vira-evolis-futura.tg" class="text-decoration-none text-dark">contact@vira-evolis-futura.tg</a></li>
+                <li><i class="bi bi-telephone me-2 text-gold"></i>Téléphone : <a href="tel:+22822000000" class="text-decoration-none text-dark">+228 22 00 00 00</a></li>
+              </ul>
+              <div class="ratio ratio-16x9 rounded overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps?q=Lom%C3%A9&output=embed"
+                  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
